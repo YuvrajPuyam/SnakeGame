@@ -1,0 +1,10 @@
+{
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports",
+        "--follow-imports=silent",
+        "--show-column-numbers",
+        "--extension-pkg-whitelist=pygame",
+        "--extension-pkg-whitelist=lxml",
+        "--unsafe-load-any-extension=y"
+    ]
+}
